@@ -1,0 +1,258 @@
+body{
+    background: #000;
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+nav{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+}
+
+ul{
+display: flex;
+width: 50%;
+height: 100%;
+justify-content: space-around;
+text-decoration: none;
+list-style: none;
+}
+
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+.logo{
+    color: white;
+
+}
+
+ul button{
+    background-color: rgb(9, 243, 83);
+    padding: 10px;
+}
+
+.hr{
+    background-color: rgb(9, 243, 83);
+    height: 2%;
+    width: 40px;
+}
+
+ul a:hover{
+
+    color: rgb(9, 243, 83);
+    text-decoration: underline;
+    
+}
+
+.hero-container{
+
+    width: 110vw;
+    height: 80vh;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.hero-left{
+    
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.top-left{
+    color: rgb(9, 243, 83);
+
+}
+.button-left{
+    background-color: rgb(9, 243, 83);
+    padding: 10px 25px 10px 25px;
+    border-radius: 64px;
+    width: 25%;
+    
+
+}
+
+.title-left{
+
+    font-size: 45px;
+    width: 40%;
+
+}
+
+.para-left{
+width: 80%;
+line-height:30px;
+}
+.hero-right{
+   background-color: blue;
+   height: 100%;
+   width: 100%;
+    background-image: url(/assets/joy_stick\ 1.png);
+    object-fit: cover;
+    background-position: 80px;
+    
+}
+
+.cont{
+    align-self: center;
+    width: 100%;
+    align-items: center;
+    padding: 25px;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: 25px;
+    justify-content: baseline;
+    
+    
+}
+
+.bttn{
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    width: 100%;
+    color:white;
+    opacity: 0.8;
+    background-color: rgb(45, 44, 40);
+    
+
+    
+}
+.info-cards{
+
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 90px;
+    align-items: center;
+color: white;
+text-align: center;
+margin-top: 20px;
+}
+
+.info-sec{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.hd2{
+    font-size: 30px;
+}
+.info-img{
+align-items: center;
+width: 100%;
+height: 100%;
+}
+
+.info-sec2{
+
+    width: 100%;
+    background: url(/assets/bg.png);
+    height: 850px;
+    background-size: cover;
+    justify-content: center;
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+    padding: 18px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.darkbl{
+
+    width: 100%;
+    height: 850px;
+    background: black;
+    position: absolute;
+    opacity: 0.7;
+    text-align: center;
+    padding: 18px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.textdk{
+
+text-align: center;
+font-size: 30px;
+}
+.subdk{
+    text-align: center;
+    font-size: 20px;
+
+}
+.inner-con{
+    width: 100%;
+    height: 80%;
+}
+.inner-top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.clink{
+
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.icon-cont{
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background: white;
+    align-content: center;
+
+}
+.p-icon{
+
+    color: #dc7000;
+    font-weight: 700;
+}
